@@ -1,0 +1,55 @@
+Jun 08, 2025 7:32:56 PM com.Amiseq.ThreadPoolAssignment.Classes.ThreadPool main
+INFO: Starting Concurrent Processing Application
+Jun 08, 2025 7:32:56 PM com.Amiseq.ThreadPoolAssignment.Classes.WorkerThreadPool initializeWorkers
+INFO: Initialized thread pool with 4 workers
+Enter the Sequence1 starting point and difference between them:
+3
+3
+Enter the Sequence2 starting point and difference between them:
+5
+5
+Jun 08, 2025 7:33:02 PM com.Amiseq.ThreadPoolAssignment.Classes.NumSequenceGenerator run
+INFO: Starting sequence generator: SERIES_A
+Jun 08, 2025 7:33:02 PM com.Amiseq.ThreadPoolAssignment.Classes.NumSequenceGenerator run
+INFO: Starting sequence generator: SERIES_B
+Jun 08, 2025 7:33:02 PM com.Amiseq.ThreadPoolAssignment.Classes.ConsoleOutput run
+INFO: Console printer started
+
+=== PRINT WINDOW OPENED ===
+OUTPUT: [SERIES_B] Generated: 25
+OUTPUT: [SERIES_A] Generated: 18
+OUTPUT: [SERIES_A] Generated: 15
+OUTPUT: [SERIES_A] Generated: 12
+OUTPUT: [SERIES_B] Generated: 20
+OUTPUT: [SERIES_B] Generated: 15
+OUTPUT: [SERIES_A] Generated: 9
+OUTPUT: [SERIES_B] Generated: 10
+OUTPUT: [SERIES_A] Generated: 6
+OUTPUT: [SERIES_B] Generated: 5
+OUTPUT: [SERIES_A] Generated: 3
+=== PRINT WINDOW CLOSED ===
+
+Jun 08, 2025 7:33:13 PM com.Amiseq.ThreadPoolAssignment.Classes.ConsoleOutput executePrivateWindow
+INFO: Printed 11 items
+
+=== PRINT WINDOW OPENED ===
+OUTPUT: [SERIES_A] Generated: 63
+OUTPUT: [SERIES_B] Generated: 90
+OUTPUT: [SERIES_A] Generated: 60
+OUTPUT: [SERIES_B] Generated: 85
+OUTPUT: [SERIES_A] Generated: 57
+OUTPUT: [SERIES_A] Generated: 54
+OUTPUT: [SERIES_B] Generated: 80
+OUTPUT: [SERIES_A] Generated: 51
+OUTPUT: [SERIES_B] Generated: 75
+OUTPUT: [SERIES_B] Generated: 70
+OUTPUT: [SERIES_B] Generated: 65
+OUTPUT: [SERIES_A] Generated: 48
+OUTPUT: [SERIES_A] Generated: 45
+OUTPUT: [SERIES_B] Generated: 60
+OUTPUT: [SERIES_A] Generated: 42
+OUTPUT: [SERIES_B] Generated: 55
+OUTPUT: [SERIES_A] Generated: 39
+OUTPUT: [SERIES_B] Generated: 50
+Jun 08, 2025 7:33:32 PM com.Amiseq.ThreadPoolAssignment.Classes.ThreadPool lambda$0
+INFO: Shutdown initiated
